@@ -36,8 +36,8 @@
 ### 🛠️ Tools and IDEs I Use
 <p>
   <img height="50" width="50" src="https://img.icons8.com/color/48/000000/visual-studio-code-2019.png" />
-  <img height="50" width="50" src="https://img.icons8.com/color/48/000000/netbeans.png" />
-  <img height="50" width="50" src="https://img.icons8.com/ios-filled/50/ffffff/github.png" />
+  <img src="https://img.shields.io/badge/NetBeans-1B6AC6?style=for-the-badge&logo=apache-netbeans-ide&logoColor=white"/>
+  <img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white"/>
 </p>
 
 ---
