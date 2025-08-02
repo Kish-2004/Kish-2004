@@ -15,7 +15,6 @@
 - MySQL, Git, Maven
 
 ---
----
 
 ### 🌐 Portfolio
 🖥️ Visit my portfolio: [**kish-2004.github.io**](https://kish-2004.github.io/)
@@ -80,7 +79,6 @@
   <img src="https://github-readme-activity-graph.vercel.app/graph?username=Kish-2004&bg_color=000000&color=00ff00&line=00ff00&point=ffffff&area=true&hide_border=true" />
 </p>
 
----
 ---
 
 ### 👁️ Visitors Count
