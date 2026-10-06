@@ -1,111 +1,105 @@
 <div align="center">
 
-<img src="./assets/detect-header.svg" alt="Kishore Kumar - detected as Full Stack Developer, AI/ML Engineer, Computer Vision Builder" width="100%"/>
+<img src="./assets/name-3d.svg" alt="Kishore Kumar" width="100%"/>
 
 <br/>
 
-<a href="https://linkedin.com/in/kishorekumar521"><img src="https://img.shields.io/badge/LinkedIn-0077B5?style=flat-square&logo=linkedin&logoColor=white"/></a>
-<a href="https://kish-2004.github.io"><img src="https://img.shields.io/badge/Portfolio-FF5722?style=flat-square&logo=google-chrome&logoColor=white"/></a>
-<a href="https://my-vehicle-app.eastus.cloudapp.azure.com"><img src="https://img.shields.io/badge/Live_AI_App-0078D4?style=flat-square&logo=microsoft-azure&logoColor=white"/></a>
-<a href="https://geeksforgeeks.org/user/kishorekumai94/"><img src="https://img.shields.io/badge/GeeksforGeeks-1E7D22?style=flat-square&logo=geeksforgeeks&logoColor=white"/></a>
+<a href="https://linkedin.com/in/kishorekumar521"><img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white"/></a>
+<a href="https://kish-2004.github.io"><img src="https://img.shields.io/badge/Portfolio-FF5722?style=for-the-badge&logo=google-chrome&logoColor=white"/></a>
+<a href="https://geeksforgeeks.org/user/kishorekumai94/"><img src="https://img.shields.io/badge/GeeksforGeeks-1E7D22?style=for-the-badge&logo=geeksforgeeks&logoColor=white"/></a>
+<img src="https://img.shields.io/badge/Open_to_Work-22c55e?style=for-the-badge"/>
 
 </div>
 
 <br/>
 
-## `$ whoami`
+## ⚡ The One-Line Pitch
 
-```console
-kishore@act-global:~$ neofetch
+**I take an idea from database to UI to AI model to cloud, and I've done it three different ways.**
 
-   ██╗  ██╗██╗  ██╗     kishore@github
-   ██║ ██╔╝██║ ██╔╝     ─────────────────────────────
-   █████╔╝ █████╔╝      Role      Full Stack + AI/ML Engineer
-   ██╔═██╗ ██╔═██╗      Backend   Java · Spring Boot · Python
-   ██║  ██╗██║  ██╗     Frontend  React · Angular
-   ╚═╝  ╚═╝╚═╝  ╚═╝     AI        YOLOv8 · RAG · Agentic AI · Gemini
-                        Cloud     Azure · Docker
-                        Now       Building @ Act Global India
-                        Shipped   1 live AI app on Azure
-                        Status    ● open to work (remote / hybrid)
-```
-
-> I build systems that ship. My approach: understand the model, wire it into a real product, deploy it, and let people use it.
+Computer vision. Distributed microservices. Generative AI with RAG. Three domains, one engineer who can build the whole stack.
 
 <br/>
 
-## 🎯 Detection #1: the one that's live
-
-<div align="center">
-
-### 🚗 AI Vehicle Damage Estimator
-
-[![Open Live Demo](https://img.shields.io/badge/▶_OPEN_LIVE_DEMO-my--vehicle--app.eastus.cloudapp.azure.com-0078D4?style=for-the-badge&logo=microsoft-azure&logoColor=white)](https://my-vehicle-app.eastus.cloudapp.azure.com)
-
-</div>
+## 🧬 How I Build: The Full Path
 
 ```mermaid
-sequenceDiagram
-    autonumber
-    actor U as User
-    participant A as React App
-    participant G as Google OAuth 2.0
-    participant M as YOLOv8 Model
-    participant E as Cost Engine
-    U->>A: Opens app
-    A->>G: Sign in
-    G-->>A: Verified
-    U->>A: Uploads damaged-car photo
-    A->>M: Image
-    M-->>E: Damage regions + labels
-    E-->>A: Cost breakdown per zone
-    A-->>U: Results + downloadable PDF report
+flowchart LR
+    subgraph UI ["🎨 Experience"]
+    A1[React]
+    A2[Angular]
+    end
+    subgraph API ["⚙️ Backend"]
+    B1[Spring Boot Microservices]
+    B2[Python Services]
+    end
+    subgraph AI ["🧠 Intelligence"]
+    C1[YOLOv8 Vision]
+    C2[RAG + Gemini]
+    C3[Agentic AI]
+    end
+    subgraph OPS ["☁️ Delivery"]
+    D1[Docker]
+    D2[Microsoft Azure]
+    end
+    UI --> API --> AI --> OPS
 ```
 
-<details open>
-<summary><b>What's inside</b></summary>
-
 <br/>
 
-| Layer | What it does |
-|---|---|
-| 🧠 **Vision** | YOLOv8 detects and localizes damage in a single photo |
-| 💰 **Estimation** | Turns detected regions into a repair-cost breakdown |
-| 📄 **Reporting** | Generates a professional PDF report |
-| 🔐 **Auth** | Google OAuth 2.0 sign-in |
-| 🐳 **Packaging** | Fully containerized with Docker |
-| ☁️ **Hosting** | Live on Microsoft Azure |
-
-</details>
-
-<br/>
-
-## 🧩 Detection #2 and #3: Act Global India internship
+## 🎯 Three Projects · Three Domains
 
 <table>
 <tr>
-<td width="50%" valign="top">
+<th width="33%">👁️ Computer Vision</th>
+<th width="33%">🕸️ Distributed Systems</th>
+<th width="33%">💬 Generative AI</th>
+</tr>
+<tr>
+<td valign="top">
 
-#### 📚 Course Registration System
-`microservices` · `enterprise`
+### Vehicle Damage Estimator
+Photo in, damage regions and repair cost out.
 
-Student enrollment split into independent services: **Eureka** discovery, **API gateway** routing, and a **React** frontend over distributed **Spring Boot** APIs.
+- YOLOv8 damage detection
+- Cost breakdown per zone
+- PDF report export
+- Google OAuth 2.0
+- Dockerized, **live on Azure**
 
-<sub>Java · Spring Boot · React · MySQL · Maven</sub>
+<img src="https://skillicons.dev/icons?i=python,react,docker,azure&theme=dark"/>
 
-[→ Repo](https://github.com/techadminactglobal/Act-Interns-2025/tree/main/KishoreKumar)
+[![Live](https://img.shields.io/badge/▶_Live_Demo-0078D4?style=flat&logo=microsoft-azure&logoColor=white)](https://my-vehicle-app.eastus.cloudapp.azure.com)
 
 </td>
-<td width="50%" valign="top">
+<td valign="top">
 
-#### 🤖 Document Chatbot
-`RAG` · `Gemini`
+### Course Registration System
+Enterprise-scale student enrollment as microservices.
 
-Upload a document and chat with it. Full pipeline of ingestion, chunking, embeddings and retrieval, with an **Angular** chat UI and **Spring Boot** orchestration.
+- Eureka service discovery
+- API gateway routing
+- React UI over distributed REST APIs
+- Built for Act Interns 2025
 
-<sub>Java · Spring Boot · Angular · Gemini AI</sub>
+<img src="https://skillicons.dev/icons?i=java,spring,react,mysql,maven&theme=dark"/>
 
-[→ Repo](https://github.com/techadminactglobal/Act-Interns-2025/tree/main/KishoreKumar)
+[![Repo](https://img.shields.io/badge/View_Code-181717?style=flat&logo=github)](https://github.com/techadminactglobal/Act-Interns-2025/tree/main/KishoreKumar)
+
+</td>
+<td valign="top">
+
+### Document Chatbot
+Upload a document, then talk to it.
+
+- Ingestion, chunking, embeddings, retrieval
+- Gemini-grounded answers
+- Spring Boot orchestration
+- Angular chat interface
+
+<img src="https://skillicons.dev/icons?i=java,spring,angular,gcp&theme=dark"/>
+
+[![Repo](https://img.shields.io/badge/View_Code-181717?style=flat&logo=github)](https://github.com/techadminactglobal/Act-Interns-2025/tree/main/KishoreKumar)
 
 </td>
 </tr>
@@ -113,54 +107,69 @@ Upload a document and chat with it. Full pipeline of ingestion, chunking, embedd
 
 <br/>
 
-## 🧠 Classes I Can Detect (Skills)
+## 🌳 Skill Tree
 
-```json
-{
-  "backend":   ["Java", "Spring Boot", "Python", "REST", "Microservices", "Maven"],
-  "frontend":  ["React", "Angular", "JavaScript", "HTML5", "CSS3"],
-  "ai_ml":     ["YOLOv8", "Computer Vision", "RAG", "Vector Embeddings", "Agentic AI", "Gemini", "Prompt Engineering"],
-  "cloud":     ["Azure", "Docker", "Git", "GitHub"],
-  "data":      ["MySQL"],
-  "tools":     ["IntelliJ", "VS Code", "Spring Tool Suite", "Postman"]
-}
+```mermaid
+mindmap
+  root((Kishore))
+    Backend
+      Java
+      Spring Boot
+      Microservices
+      REST APIs
+      Python
+    Frontend
+      React
+      Angular
+      JavaScript
+      HTML and CSS
+    AI and ML
+      YOLO Object Detection
+      RAG Pipelines
+      Vector Embeddings
+      Agentic AI
+      Prompt Engineering
+    Cloud and Tools
+      Azure
+      Docker
+      Git and GitHub
+      MySQL
+      Postman
 ```
-
-<div align="center">
-
-<img src="https://skillicons.dev/icons?i=java,spring,python,react,angular,js,mysql,docker,azure,git,idea,vscode,postman&perline=13" alt="skills"/>
-
-</div>
 
 <br/>
 
-## 📈 Telemetry
+## 🤝 Hire Me If You Need Someone Who Can...
+
+- ✅ Ship a **full-stack feature** end to end, backend to UI
+- ✅ Add **AI to a real product**: vision, document Q&A, LLM features
+- ✅ **Deploy and containerize** what they build instead of leaving it on localhost
+- ✅ Work with **microservice architectures** (discovery, gateways, REST)
+
+<br/>
+
+## 📈 Activity
 
 <div align="center">
 
 <img height="165" src="https://github-readme-stats.vercel.app/api?username=Kish-2004&show_icons=true&theme=radical&hide_border=true&hide=issues"/>
 <img height="165" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Kish-2004&layout=compact&theme=radical&hide_border=true"/>
 
+<img src="https://streak-stats.demolab.com?user=Kish-2004&theme=radical&hide_border=true"/>
+
 </div>
 
 <br/>
 
-## 📡 `POST /hire-me`
-
-```json
-{
-  "name": "Kishore Kumar",
-  "open_to": ["Full Stack", "AI/ML", "Computer Vision"],
-  "mode": ["remote", "hybrid"],
-  "linkedin": "linkedin.com/in/kishorekumar521",
-  "portfolio": "kish-2004.github.io",
-  "response_time": "fast"
-}
-```
+## 📫 Let's Talk
 
 <div align="center">
 
-[![LinkedIn](https://img.shields.io/badge/Say_hi_on_LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/kishorekumar521)
-[![Portfolio](https://img.shields.io/badge/See_my_portfolio-FF5722?style=for-the-badge&logo=google-chrome&logoColor=white)](https://kish-2004.github.io)
+I'm open to **Full Stack**, **AI/ML**, and **Computer Vision** roles, remote or hybrid.
+
+[![LinkedIn](https://img.shields.io/badge/Message_me_on_LinkedIn-0077B5?style=for-the-badge&logo=linkedin)](https://linkedin.com/in/kishorekumar521)
+[![Portfolio](https://img.shields.io/badge/See_my_portfolio-FF5722?style=for-the-badge&logo=google-chrome)](https://kish-2004.github.io)
+
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:667eea,100:764ba2&height=90&section=footer" width="100%"/>
 
 </div>
